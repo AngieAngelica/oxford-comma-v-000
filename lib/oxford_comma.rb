@@ -2,7 +2,7 @@ something = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
   if array.length == 1
-    
+    array.join
 #   if array.length == 2
 #   array[-2] << " and "
 #   array.join
