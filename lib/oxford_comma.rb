@@ -1,6 +1,7 @@
 require "pry"
 
 something = ["fiddleheads","okra","kohlrabi"]
+animals = ["cat", "dog"]
 
 def oxford_comma(array)
   binding.pry 
