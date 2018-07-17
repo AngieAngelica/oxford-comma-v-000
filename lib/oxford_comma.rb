@@ -4,9 +4,12 @@ something = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
   binding.pry 
-  if array.length == 1
+  if array.count == 1
     array.join
+  elsif array.count == 2
+  
   end
+  
 #   if array.length == 2
 #   array[-2] << " and "
 #   array.join
